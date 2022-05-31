@@ -1,0 +1,283 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://th.bing.com/th/id/OIP.9UChLYifGrntmmzueKA9rAHaHh?w=194&h=196&c=7&r=0&o=5&pid=1.7SSS">
+		<title>
+			Resume Template
+		</title>
+		<style>
+			
+			* {
+			margin: 0 ;
+			padding: 0;
+			}
+			
+			body {
+			height: 100%;
+			width: 100%;
+			font-family: "system-ui", sans-serif;
+			}
+			
+			#drop ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: :rgba(255, 127, 80, 0.30);
+			}
+			
+			#drop li {
+			float: left;
+			}
+			
+			.dropbtn {
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 16px;
+			background-color: none;
+			transform: scale(1.0);
+			transition: transform 0.3s;
+			}
+			
+			.dropbtn:hover {
+				transform: scale(1.2);
+			}
+
+			li.dropdown {
+			display: inline-block;
+			padding:25px;
+			}
+			
+			.card {
+			max-width: 300px;
+			margin: auto;
+			text-align: center;
+			font-family: inherit;
+			margin-top: 70px;
+			margin-left: 30px;
+			background-color:rgb(100, 100, 100,0.7);
+			padding: 10px;
+			border-radius: 10px;
+
+			}
+
+			.card2 {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			text-align: center;
+			font-family: inherit;
+			margin-right: 30px;
+			padding: 10px;
+			background-color:rgb(100, 100, 100,0.7);
+			color: black;
+			border-radius: 10px;
+
+			}
+
+			.card3 {
+			width: 300px;
+			height: 500px;
+			margin: auto;
+			text-align: center;
+			font-family: inherit;
+			margin-left: 30px;
+			padding: 10px;
+			background-color:rgb(100, 100, 100,0.7);
+			color: black;
+			border-radius: 10px;
+
+			}
+			
+			.title {
+			color: black;
+			font-size: 18px;
+			text-decoration: none;
+			}
+
+			#contact a {
+			text-decoration: none;
+			font-size: 22px;
+			color: black;
+			}
+
+			#li a:hover {
+			pointer-events: inherit;
+			}
+			
+			.contain1 {
+			opacity: 1;
+			transition: opacity 1.5s;
+			height: 100%;
+			padding-top: 50px;
+			}
+
+			.contain2 {
+			height: 100%;
+			padding-top: 125px;
+			background-color: none;
+			opacity: 1;
+			transition: opacity 1s;
+			}
+
+			/*.contain2:hover {
+				opacity: 1;
+			}*/
+
+			.contain3 {
+			height: 100%;
+			padding-top: 125px;
+			background-color: none;
+			opacity: 1;
+			transition: opacity 1s;
+			}
+
+			/*.contain3:hover {
+				opacity: 1;
+			}*/
+
+			.contain4 {
+			height: 100%;
+			padding-top: 125px;
+			background-color: none;
+			opacity: 1;
+			transition: opacity 1s;
+			}
+
+			.button {
+			padding: 5px 15px 5px 15px;
+			background-color: ;
+			color: black;
+			border: 1px solid black;
+			border-radius: 6px;
+			transition: background-color 0.5s,color 0.5s;
+			}
+
+			.button:hover {
+			background-color: black;
+			color: white;
+			}
+
+			div.header {
+			top: 0;
+			background-color: rgb(5, 5, 5, 0.8);
+			position: fixed;
+			width: 100%;
+			z-index: 1000;
+			}
+
+			.image {
+				border-radius: 20px;
+				height: 250;
+				width: 200;
+			}
+
+			.detail {
+				color: black;
+				text-align: left;
+				font-size: 18px;
+				margin-top: 5px;
+			}
+
+			.footer {
+				width: 100%;
+				height: 150px;
+				background-color: black;
+				color: white;
+				padding-top: 50px;
+			}
+
+
+			.icon {
+				margin: 10px;
+			}
+
+			.icon3 {
+				margin: 10px;
+			}
+
+			.icon i{
+				color: black;
+				transition: color 0.5s;
+			}
+			.icon:hover i{
+				color: #c40091;
+			}
+
+			.icon3 i{
+				color: black;
+				transition: color 0.5s;
+			}
+			.icon3:hover i{
+				color: rgb(24, 119, 242);
+			}
+
+			.created {
+				vertical-align: bottom;
+				text-align: center;
+				margin-top: 120px;
+			}
+
+		</style>
+	</head>
+	<body style="width:100%;background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLusnvxDHD7GHNago-x_gYIazJt-A7bHXTWg&usqp=CAU'); background-repeat: no-repeat; background-attachment: fixed;background-size: cover;">
+		<div id="drop" class="header">
+			<ul>
+				<li class="dropdown">
+					<a class="dropbtn" href="#profile">Profile</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn" href="#skill">Skills</a>
+				</li>
+				<li style="margin-top: 26px">
+					<a href="#language" class="dropbtn">Language</a>
+				</li>
+			</ul>
+		</div>
+		<div class="contain1" id="profile">
+			<div class="card">
+				<br/>
+				<img src="https://th.bing.com/th/id/R.2883f8f827ef0b264ca88d18ed4708d2?rik=28uYkXeYQnEg%2fQ&riu=http%3a%2f%2fwww.explorelimon.com%2fwp-content%2fuploads%2f2016%2f09%2fuser-300x300.png&ehk=TBRdBBlsK5kXsH8nxiD2i6a%2bujkaqbQFgloXqIl2qGM%3d&risl=&pid=ImgRaw&r=0" alt="jenil"class="image">
+				<br/><br/>
+				<h1>Jenil D. Kathiriya </h1>
+				<a class="title" style="margin-top:24px;" href="tel:+919327516370">Mo :- 9327516370</a><br/>
+				<a class="title" href="mailto: jdkathiriya47.com">Gmail :- jdkathiriya47.com</a>
+				<p class="title">Address :- Ahmedabad,India</p>
+				<div style="margin: 24px 0;" id="contact">
+					<a href="#" class="icon"><i class="fa fa-instagram"></i></a> 
+					<a href="#" class="icon3"><i class="fa fa-twitter"></i></a>  
+					<a href="#" class="icon3"><i class="fa fa-linkedin"></i></a>  
+					<a href="#" class="icon3"><i class="fa fa-facebook"></i></a> 
+				</div>
+				<p><button class="button">Contact</button></p>
+			</div>
+		</div>
+		<div class="contain2" id="skill">
+			<div class="card2">
+				<h2 style="font-weight:1000">Skills</h2><br/>
+				<p class="detail">~ Photography</p>
+				<p class="detail">~ Media</p>
+				<p class="detail">~ HTML</p>
+				<p class="detail">~ CSS</p>
+				<p class="detail">~ Teamwork</p>
+			</div>
+		</div>
+		<div class="contain4" id="language">
+			<div class="card3">
+				<h2 style="font-weight:1000;">Language</h2><br/>						
+				<h3 style="text-align:left;font-weight: 600;">~ Gujrati</h3><br/>
+				<h3 style="text-align:left;font-weight: 600;">~ Hindi</h3><br/>
+				<h3 style="text-align:left;font-weight: 600;">~ English</h3><br/>
+
+			</div>
+		</div>
+		<div class="footer">
+			<!-- <h1 style="text-align:center;">The End</h1> -->
+			<div>
+				<p class="created">Created by kathiriya jenil</p>
+			</div>
+		</div>
+	</body>
+</html>
